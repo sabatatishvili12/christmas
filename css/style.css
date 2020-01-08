@@ -203,6 +203,68 @@ header {
 	width: 113px;
 	height: 22px;
 }
+.afterheaderdiv {
+	height: 80px;
+	background-color: #BDCCD4;
+}
+.afterheaderdiva {
+	float: right;
+	display: inline-block;
+	margin: 30px 30px 0 0;
+}
+.afterheaderdivp {
+	float: left;
+	color: #363E97;
+	display: inline-block;
+    margin: 30px 0 0 30px;
+}
+.afterheaderdivspan {
+	color: white;
+}
+.aboutdiv {
+	width: 60px;
+	height: 60px;
+	border: 2px solid #BDCCD4;
+	display: inline-block;
+	text-align: center;
+}
+.aboutdivp {
+	font-size: 40px;
+	margin: 0 0 0 0;
+	color: #363E97;
+}
+.aboutdivp2 {
+	font-size: 14px;
+	margin: 0 0 0 0;
+	color: #363E97;
+}
+.p {
+	background-color: pink;
+	font-size: 26px;
+	color: #363E97;
+	width: 265px;
+}
+.aboutmaindiv {
+	padding: 4%;
+	height: 953px;
+}
+.typologo {
+	width: 370px;
+	height: 287.778px;
+	float: left;
+	padding: 2%;
+}
+.aboutmaindivp {
+	font-size: 20px;
+
+}
+
+
+
+
+
+
+
 
 
 
