@@ -11,6 +11,7 @@
 	float: right;
 	width: 250px;
 	margin-top: 3%;
+	height: 50px;
 }
 .htmllogo {
 	height: 60px;
@@ -179,8 +180,25 @@ header {
   margin: 2px 2px;
   cursor: pointer;
 }
-
-
+.thirddivnews {
+	height: 900px;
+	background-color: #BDCCD4;
+	padding: 4%;
+	justify-content: center;
+}
+.loadmorebutton {
+	background-color: #83939B;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin: 5% 5% 5% 40%;
+}
 
 
 
