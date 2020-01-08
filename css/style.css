@@ -199,7 +199,10 @@ header {
     margin: 5px;
     margin: 5% 5% 5% 40%;
 }
-
+.forminibox {
+	width: 113px;
+	height: 22px;
+}
 
 
 
