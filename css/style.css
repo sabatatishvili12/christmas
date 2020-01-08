@@ -4,6 +4,9 @@
 	border-left: 2px solid #3D58A6;
 	padding-left: 10px;
 }
+.headerlogos:hover {
+	height: 40px;
+}
 .headersociallogos {
 	float: right;
 	width: 250px;
@@ -38,7 +41,16 @@ header {
 .googlelogo {
 	height: 30px;
 }
+.googlelogo:hover {
+	height: 40px;
+}
 .searchlogo {
+	height: 30px;
+	margin-left: 10px;
+	border-left: 2px solid #3D58A6;
+	padding-left: 10px;
+}
+.searchlogo:hover {
 	height: 40px;
 }
 .liTAGa {
@@ -155,8 +167,21 @@ header {
 .footerboxp2 {
 	float: right;
 }
-
-
+.button1 {
+  background-color: white;
+  border: none;
+  color: red;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+.button1:hover {
+	background-color: #f1f1f1;
+}
 
 
 
