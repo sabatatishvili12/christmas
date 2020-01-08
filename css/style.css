@@ -207,6 +207,10 @@ header {
 	height: 80px;
 	background-color: #BDCCD4;
 }
+.afterheaderdiv2 {
+	height: 80px;
+	background-color: #EE4036;
+}
 .afterheaderdiva {
 	float: right;
 	display: inline-block;
@@ -246,7 +250,6 @@ header {
 }
 .aboutmaindiv {
 	padding: 4%;
-	height: 953px;
 }
 .typologo {
 	width: 370px;
@@ -258,15 +261,89 @@ header {
 	font-size: 20px;
 
 }
+.aboutdiv4 {
+	height: 90px;
+	background-color:  #BDCCD4;
+}
+.socialmediatype2 {
+	width: 200px;
+	float: right;
+	margin: 3%;
+}
+.abouta {
+	float: left;
+	margin: 3%;
+}
+.darts {
+	width: 200px;
+	height: 200px;
+	margin: 5% 5% 5% 15%;
+}
+.aboutcomputer {
+	width: 300px;
+}
+.rocket {
+	width: 194px;
+	height: 194.009px;
+	margin: 5% 5% 5% 15%;
+}
+.about1div {
+	display: flex;
+
+}
+.rocketdiv {
+	width: 250px;
+	height: 250px;
+	border: 2px solid red;
+	padding: 10%;
+}
+.aboutcomputermain {
+	width: 300px;
+	height: 300px;
+	border: 2px solid red;
+	padding: 10%;
+}
+.about1minidiv {
+	margin: 5%;
+	
+	
+}
+.about2minidiv {
+	margin: 5%;
 
 
-
-
-
-
-
-
-
+}
+.about3minidiv {
+	margin: 5%;
+}
+.abouth2 {
+	color: red;
+	background-color: pink;
+	display: inline-block;
+}
+.abouthp {
+	color: #58595B;
+	background-color: pink;
+	width: 166px;
+}
+.about1div {
+	border-bottom: 2px solid red;
+}
+.man {
+	height: 170px;
+	margin-left: 9%;
+}
+.abouth3 {
+	color: red;
+	background-color: pink;
+	font-size: 22px;
+    width: 68px;
+    margin-left: 9%;
+    
+}
+.afterabout {
+    padding: 3%;
+}
 
 
 
