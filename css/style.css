@@ -140,7 +140,7 @@ header {
 	height: 225px;
 	width: 517px;
 	background-color: #F2F2F2;
-	margin: 0 0 0 6%;
+	margin: 5% 0 0 6%;
 	align-items: 
 }
 .forthminidivlogo {
@@ -344,12 +344,61 @@ header {
 .afterabout {
     padding: 3%;
 }
+.map {
+	background-color: #E6E6E6;
+	padding: 1% 0% 1% 4%;
+}
+.mapframe {
+	width: 1170px;
+	height: 460px;
 
+}
+.bluezonemain {
+	padding: 0 4% 0 4%;
+}
+.bluezone {
+	background-color: #363E97;
+	padding: 4%;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
+input[type=submit]:hover {
+  background-color: #45a049;
+}
 
-
-
-
-
+.form {
+  border-radius: 5px;
+  background-color: #363E97;
+  padding: 20px;
+  width: 600px;
+  margin: 5% 3% 0% 27%;
+}
+.bluezonep {
+	color: white; 
+	width: 160px;
+	display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.contactinfo {
+	float: left;
+}
 
