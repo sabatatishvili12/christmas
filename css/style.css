@@ -115,6 +115,7 @@ header {
 	margin: 3% 2% 3% 3.5%;
 	display: inline-flex;
 	justify-content: center;
+	align-content: center;
 }
 .seconddiv {
 	background-color: #363E97;
