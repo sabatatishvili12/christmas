@@ -196,7 +196,7 @@ header {
     height: 130.500px;
 }
 .forthfirstdiv {
-	display: inline-flex;
+	display: flex;
 	margin-left: 7%;
 }
 .forthminidivh3 {
