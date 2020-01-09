@@ -3,9 +3,30 @@
 	margin-left: 10px;
 	border-left: 2px solid #3D58A6;
 	padding-left: 10px;
+	animation: scaledown .4s linear;
+	animation-fill-mode: forwards;
 }
 .headerlogos:hover {
-	height: 40px;
+	z-index: 100;
+	animation: scale 1s ease;
+	animation-fill-mode: forwards;
+}
+@keyframes scaledown{
+	0%{
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	100%{
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+@keyframes scale{
+	0%{
+		-webkit-transform: scale(1)
+		transform: scale(1);
+	}
+
 }
 .headersociallogos {
 	float: right;
@@ -41,9 +62,32 @@ header {
 }
 .googlelogo {
 	height: 30px;
-}
+	margin-left: 10px;
+	padding-left: 10px;
+	animation: scaledown .4s linear;
+	animation-fill-mode: forwards;}
 .googlelogo:hover {
-	height: 40px;
+	z-index: 100;
+	animation: scale 1s ease;
+	animation-fill-mode: forwards;
+}
+@keyframes scaledown{
+	0%{
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	100%{
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+@keyframes scale{
+	0%{
+		-webkit-transform: scale(1)
+		transform: scale(1);
+	}
+
+}
 }
 .searchlogo {
 	height: 30px;
@@ -174,14 +218,9 @@ header {
 .button1 {
   background-color: white;
   border: none;
-  color: red;
-  padding: 5px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 2px 2px;
-  cursor: pointer;
 }
 .thirddivnews {
 	height: 900px;
