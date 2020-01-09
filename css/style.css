@@ -99,17 +99,16 @@ header {
 .thirddiv {
 	height: 450px;
 	background-color: #BDCCD4;
-	padding: 4%;
-	justify-content: center;
-	display: inline-block;
+	padding: 4%;	
 }
 .thirdminidiv {
 	width: 270px;
 	height: 270px;
 	background-color: #E6E6E6;
-	display: inline-block;
 	margin: 6% 1% 0 0;
-	justify-content: center;
+	display: inline-block;
+
+	
 }
 .thirdminidivimg {
 	width: 270px;
@@ -405,4 +404,7 @@ input[type=submit]:hover {
 .contactinfo {
 	float: left;
 }
-
+.thirdmainflex {
+	display: flex;
+	justify-content: center;
+}
