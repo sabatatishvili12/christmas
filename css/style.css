@@ -387,7 +387,8 @@ header {
 }
 .map {
 	background-color: #E6E6E6;
-	padding: 1% 0% 1% 4%;
+	display: flex;
+	justify-content: center;
 }
 .mapframe {
 	width: 1170px;
